@@ -24,8 +24,3 @@ class Ball
     ANSWERS[random]
   end
 end
-
-puts 'Ask Magic 8 ball a question'
-gets.chomp
-ball = Ball.new
-puts ball.shake
